@@ -1,7 +1,6 @@
 .header {
    background-color: #70c4d1;
    border-radius: 5px;  
-   padding-left: 10px;
 }
 
 #profile {
@@ -36,8 +35,11 @@ footer {
    color: red;
 }
 
-
-
+h1{
+   margin-left: 60px;
+   font-family: 'Supermercado One';
+   font-size: 3em;
+}
 h2 {
    margin-left: 60px;
    font-family: 'Supermercado One';
