@@ -1,7 +1,5 @@
 .header {
    background-color: #70c4d1;
-   font-family: 'Supermercado One';
-   font-size: 2em;
    border-radius: 5px;  
    padding-left: 10px;
 }
@@ -42,4 +40,6 @@ footer {
 
 h2 {
    margin-left: 60px;
+   font-family: 'Supermercado One';
+   font-size: 2em;
 }
