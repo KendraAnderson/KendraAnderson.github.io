@@ -1,10 +1,10 @@
-.header {
+header {
    background-color: #70c4d1;
-   border-radius: 5px;  
+   border-radius: 5px;
+   text-align: center;
 }
 
 #profile {
-   float: right;
    width: 20%;
    border-radius:20px;
    margin: 20px;
