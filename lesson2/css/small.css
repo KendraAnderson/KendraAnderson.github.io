@@ -19,6 +19,7 @@ header {
    border-radius: 2px;
    padding: 20px;
    margin-bottom: 10px;
+   border: solid black 10px;
 }
 
 a {
