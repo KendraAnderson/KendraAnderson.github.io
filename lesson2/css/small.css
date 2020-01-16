@@ -1,0 +1,50 @@
+main {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 20px;
+}
+section {
+   background-color: #c4d4cc;
+   border-radius: 2px;
+}
+
+.pics {
+   width: 100%;
+   padding-top: 30px;
+}
+
+header {
+   background-color: #f6f5f5;
+   text-align: center;
+   border-radius: 2px;
+   padding: 20px;
+   margin-bottom: 10px;
+}
+
+a {
+   color: #080d47;
+}
+
+.company_name {
+   color: #88162e;
+   margin-bottom: 0px;
+}
+
+p {
+   padding: 30px;
+   font-family: 'Montserrat';
+   line-height: 20px;
+}
+
+body {
+   padding: 30px;
+}
+
+.top {
+   padding: 30px;
+   text-align: center;
+}
+
+h1, h2 {
+   font-family: 'Volkhov';
+}
