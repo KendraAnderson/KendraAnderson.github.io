@@ -1,0 +1,149 @@
+header,
+footer {
+    background-color: #174d73;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #555555;
+    text-align: center;
+    font-family: 'PT Serif';
+    line-height: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+nav a:hover {
+    background-color: #e4e4e4;
+    font-size: 1.3em;
+}
+
+ footer a {
+   margin: .5em;
+ }
+
+ h1 {
+   font-family: 'PT Serif';
+   font-size: 2em;
+   margin: 20px;
+ }
+ 
+ h2 {
+   font-family: 'PT Serif';
+   font-size: 1.5em;
+   margin: 20px;
+   color: #174d73;
+ }
+ 
+ body {
+   background-color: #e4e4e4;
+   margin: 20px;
+ }
+ 
+ #content {
+   width: 90%;
+   margin:  0 auto;
+ }
+ 
+ p {
+   line-height: 20px;
+   margin: 20px;
+   font-family: 'Roboto Condensed';
+ }
+ 
+ #banner {
+   margin-bottom: -4px;
+ }
+ 
+ #logo {
+   position: absolute;
+   margin: 8px;
+   border: solid #555555 2px;
+ }
+ 
+ #top-row {
+   font-family: 'Roboto Condensed';
+   align-items: center;
+ }
+ 
+ footer {
+   padding: 5px;
+   background-color: #174d73;
+ }
+ 
+ .icon {
+   border: solid #555555 3px;
+   border-radius: 18px;
+ }
+ 
+ #company {
+   font-size: 2em;
+ }
+ 
+ .fullwidth {
+   width: 100%;
+ }
+ 
+ #copywrite {
+   font-family: 'PT Serif';
+   color: black;
+ }
+ 
+ #copywrite-link:hover {
+   font-weight: bold;
+ }
+ 
+ #title {
+   position: absolute;
+   font-size: 3em;
+   margin-left: 180px;
+   color: #174d73;
+ }
+
+ section .icon:hover {
+   transform: scale(1.1);
+ }
+ 
+ #scheme {
+    width: 50%;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    border: solid black 2px;
+ }
+
+ #typo {
+   width: 80%;
+   margin-top: 200px;
+   border: solid black 2px;
+}
+
+#top-row ul{
+   margin-top: -18px;
+   margin-left: 10px;
+}
