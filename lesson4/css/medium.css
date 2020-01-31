@@ -1,4 +1,4 @@
-@media (min-width: 37.5em) {
+@media (min-width: 44.5em) {
     main, footer {
         max-width: 900px;
         margin: 0 auto;
@@ -8,7 +8,11 @@
         display: flex;
     }
 
-    nav li {
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
         display: block;
         flex: 1 1 100%;
     }
@@ -32,5 +36,16 @@
 
     .navigation li:first-child {
         display: none;
+    }
+
+    #second {
+        display: block;
+        text-align: center;
+        font-family: 'Roboto Condensed';
+        border: solid black 2px;
+        border-radius: 5px;
+        margin: 2px;
+        padding: 10px;
+        height: 80px;
     }
 }

@@ -8,9 +8,11 @@ nav {
    text-align: center;
    margin: 0;
 }
+
 .navigation li:first-child {
 	display: block;
 }
+
 .navigation li {
 	display: none;
 }
@@ -34,7 +36,7 @@ nav a {
    text-align: center;
    padding: 0.75rem;
    text-decoration: none;
-   font-size: 1.25em;
+   font-size: 1em;
 }
 
 header,
@@ -85,7 +87,7 @@ h1 {
 }
 
 h2 {
-   font-size: 1em;
+   font-size: 1.5em;
    color: #174d73;
 }
 
@@ -115,8 +117,35 @@ p {
    border: solid #555555 2px;
 }
 
-#top, #second, #third, #bottom {
+#top, #third {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    font-family: 'Roboto Condensed';
+   border: solid black 2px;
+   border-radius: 5px;
+   margin: 2px;
+   padding: 10px;
+   height: 80px;
+}
+
+#bottom {
+   display: block;
+   text-align: center;
+   font-family: 'Roboto Condensed';
+   border: solid black 2px;
+   border-radius: 5px;
+   margin: 2px;
+   padding: 10px;
+   height: 80px;
+}
+
+#second {
+   display: none;
+}
+
+#top div, #third div {
+   padding: 20px;
 }
 
 footer {
@@ -135,8 +164,6 @@ footer {
 }
 
 #title {
-   position: absolute;
-   font-size: 2em;
-   margin-left: 180px;
+   text-align: center;
    color: #174d73;
 }

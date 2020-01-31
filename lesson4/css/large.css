@@ -33,4 +33,15 @@
     .navigation li:first-child {
         display: none;
     }
+
+    #second {
+        display: block;
+        text-align: center;
+        font-family: 'Roboto Condensed';
+        border: solid black 2px;
+        border-radius: 5px;
+        margin: 2px;
+        padding: 10px;
+        height: 80px;
+    }
 }
