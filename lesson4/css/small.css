@@ -80,6 +80,7 @@ header div {
 #company, #motto {
    padding-left: 10px;
    padding-right: 10px;
+   line-height: 1em;
 }
 
 h1, h2, h3 {
