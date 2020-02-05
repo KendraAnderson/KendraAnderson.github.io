@@ -1,12 +1,16 @@
 
 #pancake {
     display: none;
+    width: 100%;
 }
 
 nav {
    width: 100%;
    margin: 0 auto;
-	background-color: #000;
+   background-color: #555555;
+   text-align: center;
+   font-family: 'PT Serif';
+   line-height: 2em;
 }
 
 .navigation {
@@ -24,20 +28,13 @@ nav {
 }
 
 .navigation a:hover {
-	color: #000;
+	color: black;
 	background-color: white;
 	font-weight: bold;
 }
 
 nav ul li.active a {
    background-color: #174d73;
-}
-
-nav {
-   background-color: #555555;
-   text-align: center;
-   font-family: 'PT Serif';
-   line-height: 2em;
 }
 
 nav a {
@@ -60,13 +57,13 @@ nav, footer {
 }
 
 #currentdate {
-   padding: 5px;
+   padding: 10px;
 }
 
 header,
 footer {
    background-color: #174d73;
-   padding: 20px;
+   color: white;
 }
 
 header {
@@ -82,6 +79,7 @@ header div {
    justify-content: center;
    text-align: center;
    line-height: 5px;
+   padding: 20px;
 }
 
 #company, #motto {
@@ -104,7 +102,7 @@ h2 {
 }
 
 h3 {
-   font-size: 1.5em;
+   font-size: 1em;
    letter-spacing: .1em;
 }
 
@@ -128,6 +126,7 @@ p {
 #logo {
    height: 150px;
    border: solid #555555 2px;
+   margin: 20px;
 }
 
 #top {
@@ -151,7 +150,7 @@ p {
    font-family: 'Roboto Condensed';
    border-top: solid black 2px;
    margin: 2px;
-   padding: 10px;
+   padding: 0px;
 }
 
 #bottom {
@@ -172,14 +171,14 @@ p {
 }
 
 footer {
-   padding: 10px;
+   padding-bottom: 10px;
    background-color: #174d73;
    display: flex;
    flex-flow: column;
    align-items: center;
    justify-content: center;
    font-family: 'PT Serif';
-   color: black;
+   color: white;
 }
 
 .fullwidth {
