@@ -1,7 +1,11 @@
 
 #pancake {
-    display: none;
-    width: 100%;
+   width: 100%;
+   background-color: #fcc93d;
+   color: black;
+   text-align: center;
+   padding: 10px;
+   display: none;
 }
 
 nav {
