@@ -46,4 +46,8 @@
     #map {
         display: block;
     }
+
+    #logo {
+        height: 150px;
+    }
 }
