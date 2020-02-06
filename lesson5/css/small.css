@@ -160,6 +160,10 @@ p {
    padding: 0px;
 }
 
+#third img {
+   width: 90%;
+}
+
 #bottom {
    display: flex;
    align-items: center;
