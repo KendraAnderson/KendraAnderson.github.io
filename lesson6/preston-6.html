@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-   <title>Weather Corner | Lesson 5 | Preston</title>
+   <title>Weather Corner | Lesson 6 | Preston</title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/normalize.css">
@@ -28,7 +28,7 @@
       <ul class="navigation">
          <li><a class="ham" href="#">&#9776; Menu</a></li>
          <li><a target="_blank" href="#">Home</a></li>
-         <li class="active"><a target="_blank" href="preston-5.html">Preston</a></li>
+         <li class="active"><a target="_blank" href="preston-6.html">Preston</a></li>
          <li><a target="_blank" href="#">Soda Springs</a></li>
          <li><a target="_blank" href="#">Fish Haven</a></li>
          <li><a target="_blank" href="#">Storm Center</a></li>
@@ -45,10 +45,11 @@
          </div>
          <section id="summary">
             <h3>Weather Summary</h3>
-            <p>34&#176; F<br>
+            <p><span id="temp">34</span>&#176; F<br>
                38&#176; High<br>
                20% Humidity<br>
-               12 mph Wind</p>
+               <span id="speed">12</span> mph Wind<br>
+               Feels Like <span id="windchill"></span>&#176; F</p>
          </section>
       </div>
       <div id="second">
@@ -124,6 +125,7 @@
    </footer>
    <script src="js/toggle-ham.js"></script>
    <script src="js/breakfast.js"></script>
+   <script src="js/windchill.js"></script>
 </body>
 
 </html>

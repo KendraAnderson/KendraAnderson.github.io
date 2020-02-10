@@ -1,0 +1,53 @@
+@media (min-width: 44.5em) {
+    main, footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    nav li a {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    #second {
+        display: block;
+        text-align: center;
+        font-family: 'Roboto Condensed';
+        border-top: solid black 2px;
+        margin: 2px;
+        padding: 10px;
+    }
+
+    #map {
+        display: block;
+    }
+
+    #logo {
+        height: 150px;
+    }
+}
