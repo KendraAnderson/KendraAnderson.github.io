@@ -33,7 +33,7 @@ footer {
 
 .last-updated, #modif {
    display: inline;
-   color: red;
+   color: black;
 }
 
 h1{
@@ -49,4 +49,8 @@ h2 {
 
 .top {
    margin-bottom: 20px;
+}
+
+#byui {
+   color: #19008a;
 }
