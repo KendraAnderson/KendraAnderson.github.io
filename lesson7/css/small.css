@@ -1,0 +1,45 @@
+body {
+
+}
+
+h1 {
+   font-family: 'PT Serif';
+   text-align: center;
+   color: #174d73;
+   font-size: 3em;
+}
+
+#grid {
+   text-align:center;
+}
+
+picture img[data-src] {
+   filter: blur(0.2em);
+ }
+ 
+picture img {
+   filter: blur(0em);
+   transition: filter 0.5s;   
+ }
+
+ body {
+    background-color: #e4e4e4;
+ }
+
+ figure {
+    display: inline-block;
+    background-color: #174d73;
+    margin: 20px;
+    padding: 0;
+ }
+
+ figcaption{
+    color: white;
+    padding: 10px;
+    font-family: 'PT Serif';
+ }
+
+ .pic {
+    margin: 10px;
+    border: solid black 8px;
+ }
