@@ -11,15 +11,21 @@ table, td, th {
 td {
    background-color: #e7ffed;
    padding: 5px;
+   font-size: .9em;
 }
 
 tr.odd td{
    background-color: #e7f0ed;
 }
 
-thead td, tfoot td{
+thead td {
    background-color: #7fb9c2;
    padding: 10px;
+}
+
+tfoot td {
+   background-color: #7fb9c2;
+   padding: 6px;
 }
 
 thead {
@@ -34,12 +40,9 @@ tfoot {
 th{
    font-size: .80em;
    letter-spacing: 1px;
-}
-
-th {
    background-color: #628ca6;
    color: white;
-   padding: 4px;
+   padding: 8px 5px 8px 5px;
 }
 
 tbody :nth-child(6) :nth-child(1) {
@@ -48,8 +51,10 @@ tbody :nth-child(6) :nth-child(1) {
 
 tbody :nth-child(5) :nth-child(3) {
    background-color: #628ca6;
+   color: white;
 }
 
 table {
    margin: 0px;
+   filter: drop-shadow(8px 7px 4px #628ca6)
 }
