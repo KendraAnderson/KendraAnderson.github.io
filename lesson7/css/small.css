@@ -1,12 +1,138 @@
-body {
+nav {
+   width: 100%;
+   margin: 0 auto;
+   background-color: #555555;
+   text-align: center;
+   font-family: 'PT Serif';
+   line-height: 2em;
+}
 
+.navigation {
+   padding: 0;
+   text-align: center;
+   margin: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a:hover {
+	color: black;
+	background-color: white;
+	font-weight: bold;
+}
+
+nav ul li.active a {
+   background-color: #174d73;
+}
+
+nav a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 0.75rem;
+   text-decoration: none;
+   font-size: 1em;
+}
+
+header,
+nav, footer {
+   width: 100%;
+   margin: 0 auto;
+}
+
+.responsive li {
+	display: block;
+}
+
+
+header,
+footer {
+   background-color: #174d73;
+   color: white;
+}
+
+header {
+   display: flex;
+   flex-flow: row;
+   width: 100%;
+}
+
+header #header {
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   line-height: 5px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 20px;
+}
+
+#company, #motto {
+   padding-left: 30px;
+   padding-right: 30px;
+   line-height: 1em;
+}
+
+h1, h2, h3 {
+   font-family: 'PT Serif';
 }
 
 h1 {
+   font-size: 2em;
+}
+
+h2 {
+   font-size: 1.5em;
+   color: #174d73;
+}
+
+h3 {
+   font-size: 1em;
+   letter-spacing: .1em;
+}
+
+body {
+   background-color: #e4e4e4;
+}
+
+main {
+   padding: 20px;
+}
+
+p {
+   line-height: 20px;
+   font-family: 'Roboto Condensed';
+}
+
+#logo {
+   height: 100px;
+   border: solid #555555 2px;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+footer {
+   padding-bottom: 10px;
+   background-color: #174d73;
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   justify-content: center;
    font-family: 'PT Serif';
+   color: white;
+}
+
+#title {
    text-align: center;
    color: #174d73;
-   font-size: 3em;
 }
 
 #grid {
