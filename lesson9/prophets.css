@@ -1,0 +1,87 @@
+/* --------------- SMALL VIEWPORT -------------- */
+ body {
+   margin: 0;
+ }
+ 
+ header, footer {
+   text-align: center;
+   padding: 2rem 0;
+ }
+ 
+ h1 {
+   color: rgb(67, 68, 160);
+   font-family: 'Bree Serif';
+   font-size: 3em;
+   margin: 0;
+ }
+ 
+ h2 {
+   font-size:2em;
+   color: rgb(66, 68, 138);
+   font-family: 'Bree Serif';
+   text-align: center;
+   margin-bottom: 15px;
+ }
+ 
+ p {
+   font-family: 'Istok Web';
+   font-weight: bold;
+   font-size: 1.2em;
+   text-align: center;
+   line-height: 1.25rem;
+   margin: 5px;
+   color: rgb(26, 26, 26);
+ }
+ 
+ main {
+   padding: 1rem 0.5rem;
+   background-color: rgb(224, 224, 224);
+   box-shadow: 0 0 30px rgb(119, 119, 119);
+ }
+ 
+ div.cards {
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-items: center; 
+   align-content: center;
+ }
+ 
+ div.cards section {
+   display: grid; 
+   justify-items: center; 
+   width: 97%;
+   margin: 0.25rem;
+   border: 1px solid rgb(67, 68, 160);
+   background-color: rgb(181, 181, 204);
+ }
+ 
+ img {
+   align-self: center;
+   max-height: 300px;
+   margin-bottom: 10px;
+   margin-top: 15px;
+   box-shadow: 0 0 30px rgb(54, 54, 54);
+ }
+ 
+ /* -------------- MEDIUM VIEWPORT -------------- */
+ @media only screen and (min-width: 45em) {
+   div.cards {
+     grid-template-columns: 1fr 1fr;
+   } 
+
+   main {
+     padding: 1rem;
+     margin: 20px;
+   }
+   
+ }
+ 
+ 
+ /* --------------- LARGE VIEWPORT -------------- */
+ @media only screen and (min-width: 85em) {
+   div.cards {
+     grid-template-columns: repeat(4, 1fr);
+   }
+ 
+ }
