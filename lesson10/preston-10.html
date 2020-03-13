@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+   <title>Weather Corner | Lesson 10 | Preston</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Preston Weather Page Lesson 10">
+   <meta name="author" content="Kendra Anderson">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/small.css">
+   <link rel="stylesheet" href="css/medium.css">
+   <link rel="stylesheet" href="css/large.css">
+   <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <div id="pancake">Preston Pancakes in the Park! 9:00 a.m.<br>
+      Saturday at the city park pavilion.
+   </div>
+   <header>
+      <img src="images/logo-final.jpg" alt="logo" id="logo">
+      <div id="header">
+         <h1 id="company">Weather Corner</h1>
+         <h3 id="motto">Accurate weather. Whether you like it or not.</h3>
+      </div>
+   </header>
+   <nav>
+      <ul class="navigation">
+         <li><a class="ham" href="#">&#9776; Menu</a></li>
+         <li><a target="_blank" href="../lesson9/index.html">Home</a></li>
+         <li class="active"><a target="_blank" href="preston-6.html">Preston</a></li>
+         <li><a target="_blank" href="#">Soda Springs</a></li>
+         <li><a target="_blank" href="#">Fish Haven</a></li>
+         <li><a target="_blank" href="../lesson8/stormcenter.html">Storm Center</a></li>
+         <li><a target="_blank" href="../lesson7/gallery-7.html">Gallery</a></li>
+      </ul>
+   </nav>
+   <main id="smaller-main">
+      <div id="title">
+         <h2>Preston Idaho</h2>
+      </div>
+      <div id="top">
+         <div>
+            <img src="images/preston-home.jpg" alt="Southeast Idaho Farm" class="fullwidth">
+         </div>
+         <section id="summary">
+            <h3>Weather Summary</h3>
+            <p><span id="temp"></span>&#176; F Now<br>
+               <span id="condition"></span> Currently<br>
+               <span id="humidity"></span>% Humidity<br>
+               <span id="speed"></span> mph Wind<br>
+               Feels Like <span id="windchill"></span>&#176; F</p>
+         </section>
+      </div>
+      <div id="second">
+         <div>
+            <h3 id="forecast-title">5 Day Forecast</h3>
+         </div>
+         <div id="forecast">
+            <div>
+               <h3 id="day1"></h3>
+               <img id="image1">
+               <section><span id="temp1"></span>&#176; F</section>
+            </div>
+            <div>
+               <h3 id="day2"></h3>
+               <img id="image2">
+               <section><span id="temp2"></span>&#176; F</section>
+            </div>
+            <div>
+               <h3 id="day3"></h3>
+               <img id="image3">
+               <section><span id="temp3"></span>&#176; F</section>
+            </div>
+            <div>
+               <h3 id="day4"></h3>
+               <img id="image4">
+               <section><span id="temp4"></span>&#176; F</section>
+            </div>
+            <div>
+               <h3 id="day5"></h3>
+               <img id="image5">
+               <section><span id="temp5"></span>&#176; F</section>
+            </div>
+         </div>
+         <div id="credit"> -All Weather Data Provided by OpenWeatherMap- </div>
+      </div>
+      <div id="third">
+         <div>
+            <h3>It's Raining Trampolines In Preston</h3>
+         </div>
+         <div>
+            <img src="images/tramp.jpg" alt="article pic">
+         </div>
+         <div id="article-text">
+            <p>Southeast idaho winds reach unprecidented speeds
+               Friday March 12, 2020. Gusts of 50 miles per hour
+               weren't uncommon and sustain 40 mph wind lasted through
+               Saturday. Reports of property damage and injuries were 
+               abundant.</p>
+            <p>One car was hit by a flying trampoline and drivers spent
+               20 minutes getting the road clear after the incident. Other
+               debris scattered roadways throughout the weekend.</p>
+            <p>Downed trees and branches caused damage to local power lines
+               and transformers. Fortunately, no mass power outages occured.
+               All small outages have been resolved by Preston Fire and Police
+               Department.</p>
+            <p>No fatalities were reported due to the extreme weather and most
+               effects of the storm have been cleaned up. The record windspeeds 
+               were the highest Preston has seen in 23 years. Authorities urge 
+               any unreported storm damage be reported to the city police department.
+            </p>
+         </div>
+      </div>
+      <div id="bottom">
+         <div id="map">
+            <img src="images/preston-map.jpg" alt="map">
+         </div>
+         <div>
+            <h3>Contact US</h3>
+            <p>1(800)WC-Idaho<br>
+               contact@weathercorner.com</p>
+            <p>Weather Corner<br>
+               400 Hayfield Ln.<br>
+               Preston, Id 83263</p>
+            <a target="_blank" href="https://www.instagram.com/"><img src="images/instagram.jpg" alt="instagram icon"
+                  class="icon"></a>
+            <a target="_blank" href="https://twitter.com/"><img src="images/twitter.jpg" alt="twitter icon"
+                  class="icon"></a>
+            <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.jpg" alt="facebook icon"
+                  class="icon"></a>
+         </div>
+      </div>
+   </main>
+   <footer>
+      <div>
+         <a id="currentdate"><script src="js/current-date.js"></script></a>
+      </div>
+      <div>
+         <a id="copywrite">&copy; 2020 Weather Corner - Kendra Anderson</a>
+      </div>
+      <div>
+         <a target="_blank" href="https://openweathermap.org/">OpenWeatherMap</a>
+      </div>
+   </footer>
+   <script src="js/toggle-ham.js"></script>
+   <script src="js/breakfast.js"></script>
+   <script src="js/currentapi.js"></script>
+   <script src="js/forecastapi.js"></script>
+</body>
+
+</html>
