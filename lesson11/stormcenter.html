@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+   <title>Weather Corner | Lesson 8 | Storm Center</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Storm Center Page Week 8">
+   <meta name="author" content="Kendra Anderson">
+   <link rel="stylesheet" href="../lesson8/css/normalize.css">
+   <link rel="stylesheet" href="../lesson8/css/small.css">
+   <link rel="stylesheet" href="../lesson8/css/medium.css">
+   <link rel="stylesheet" href="../lesson8/css/large.css">
+   <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <header>
+      <img src="images/logo-final.jpg" alt="logo" id="logo">
+      <div id="header">
+         <h1 id="company">Weather Corner</h1>
+         <h3 id="motto">Accurate weather. Whether you like it or not.</h3>
+      </div>
+   </header>
+   <nav>
+      <ul class="navigation">
+         <li><a class="ham" href="#">&#9776; Menu</a></li>
+         <li><a target="_blank" href="index.html">Home</a></li>
+         <li><a target="_blank" href="preston.html">Preston</a></li>
+         <li><a target="_blank" href="soda.html">Soda Springs</a></li>
+         <li><a target="_blank" href="haven.html">Fish Haven</a></li>
+         <li class="active"><a target="_blank" href="stormcenter.html">Storm Center</a></li>
+         <li><a target="_blank" href="gallery.html">Gallery</a></li>
+      </ul>
+   </nav>
+   <main id="smaller-main">
+      <div id="title">
+         <h2>Storm Center</h2>
+      </div>
+      <div id="form">
+         <form method="get" action="thanks.html" target="_blank">
+            <fieldset>
+               <legend>Personal Information</legend>
+               <label class="one">Full Name* <input type="text" name="name" pattern="[A-Za-z ]{5,}" required><span
+                     class="footnote"> ( Min 5 Letters ) </span></label>
+               <label class="one">Email <input type="email" name="email" placeholder="name@gmail.com"></label>
+               <label class="one">Phone Number* <input type="tel" name="phone" required></label>
+            </fieldset>
+            <fieldset>
+               <legend>Storm Information</legend>
+               <label class="one">Zipcode* <input type="number" name="zipcode" required></label>
+               <label class="one">Storm Date <input type="date" name="date"></label>
+               <label class="one">Storm Type <input list="storms" name="stormtype">
+                  <datalist id="storms">
+                     <option value="Flash Flood">
+                     <option value="Hail">
+                     <option value="Hurricane">
+                     <option value="Thunder Storm">
+                     <option value="Tornado">
+                  </datalist></label>
+               <label class="one">Storm Severity <input type="range" name="severity" id="range" min="1" max="10"><span
+                     class="footnote"> ( 1 through 10 ) </span></label>
+               <label class="one">Storm Region
+                  <select name="region">
+                     <option value="" disabled="disabled" selected>Select Region &#9662;</option>
+                     <option value="software">Preston</option>
+                     <option value="creative">Soda Springs</option>
+                     <option value="creative">Fish Haven</option>
+                  </select>
+               </label>
+            </fieldset>
+            <fieldset>
+               <legend>Additional Information</legend>
+               <label class="one">User In-danger Level</label>
+               <label class="two"><input type="radio" name="danger" value="yes"> Yes</label>
+               <label class="two"><input type="radio" name="danger" value="maybe"> Maybe</label>
+               <label class="two"><input type="radio" name="danger" value="no"> No</label>
+               <label class="one">Additional Information or Comments <br><textarea name="comment" rows="10" cols="25" placeholder="250 characters" id="comment"></textarea></label>
+            </fieldset>
+
+            <input type="submit" value="Report Storm" class="push">
+         </form>
+      </div>
+   </main>
+   <footer>
+      <a id="currentdate">
+         <script src="js/current-date.js"></script>
+      </a>
+      <div>
+         <a id="copywrite">&copy; 2020 Weather Corner - Kendra Anderson</a>
+      </div>
+   </footer>
+   <script src="js/toggle-ham.js"></script>
+</body>
+
+</html>

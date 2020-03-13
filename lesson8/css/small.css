@@ -197,7 +197,7 @@ form label.two input {
 
 form input.push {
     border: none;
-    background-color: #9c2c13;
+    background-color: green;
     color: white;
     border-radius: 30px;
     padding: .75rem 1.5rem;
@@ -216,7 +216,7 @@ form label.one input:required {
 }
 
 form label.one input:required:invalid {
-    border-left: green solid 6px;
+    border-left: red solid 6px;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
