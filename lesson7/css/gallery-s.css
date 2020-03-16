@@ -50,22 +50,10 @@ nav, footer {
 	display: block;
 }
 
-#currentdate {
-   padding: 10px;
-}
 
 header,
 footer {
    background-color: #174d73;
-   color: white;
-}
-
-footer div {
-   color: white;
-   margin: 5px;
-}
-
-footer a {
    color: white;
 }
 
@@ -131,52 +119,6 @@ p {
    margin-top: 20px;
 }
 
-#top {
-   position: relative;
-   top: 6px;
-}
-
-#summary {
-   position: absolute;
-   top: 1rem;
-   left: 1rem;
-   border: solid black 2px;
-   padding-left: 10px;
-   padding-right: 10px;
-   background-color: rgba(0, 0, 0, .7);
-   color: white;
-} 
-
-#third {
-   display: block;
-   text-align: center;
-   font-family: 'Roboto Condensed';
-   border-top: solid black 2px;
-   margin: 2px;
-   padding: 0px;
-}
-
-#third img {
-   width: 90%;
-}
-
-#bottom {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-   font-family: 'Roboto Condensed';
-   border-top: solid black 2px;
-   margin: 2px;
-   padding: 10px;
-}
-
-#second {
-   display: none;
-}
-
 footer {
    padding-bottom: 10px;
    background-color: #174d73;
@@ -188,70 +130,42 @@ footer {
    color: white;
 }
 
-.fullwidth {
-   width: 100%;
-}
-
 #title {
    text-align: center;
    color: #174d73;
 }
 
-#map {
-   display: none;
-   margin: 40px;
+#grid {
+   text-align:center;
 }
 
-.icon {
-   border: 1px solid black;
-   border-radius: 18px;
-   width: 1.25em;
-   margin: 10px;
+picture img[data-src] {
+   filter: blur(0.2em);
+ }
+ 
+picture img {
+   filter: blur(0em);
+   transition: filter 0.5s;   
  }
 
- #article-text {
-    text-align: left;
+ body {
+    background-color: #e4e4e4;
  }
 
- #forecast {
-    display: flex;
-    justify-content: center;
+ figure {
+    display: inline-block;
+    background-color: #174d73;
+    margin: 20px;
+    padding: 0;
  }
 
- #forecast div {
+ figcaption{
+    color: white;
+    padding: 10px;
+    font-family: 'PT Serif';
+ }
+
+ .pic {
     margin: 10px;
- }
-
- #forecast p {
-    padding-right: 10px;
-    padding-left: 10px;
- }
-
- #events {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    border-top: black solid 2px;
- }
-
- .events li{
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   font-family: 'Roboto Condensed';
- }
-
- .events div {
-    margin: 0;
-    padding: 0;
- }
-
- #events h3 {
-    color: #174d73;
-    margin-left: 35px;
-    font-size: 1.2em;
- }
-
- #third h3 {
-    font-size: 1.2em;
+    border: solid black 8px;
  }

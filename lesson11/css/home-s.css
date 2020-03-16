@@ -185,27 +185,42 @@ div #contact h3 {
    font-size: 1.2em;
 }
 
-div.activities h2{
-   color: black;
-}
-
 div.activities {
    margin: 10px;
    padding: 10px;
    text-align: center;
-   border-top: solid black 2px;
 }
 
-#paragraphs {
+.activities {
    display: flex;
+   flex-direction: row;
    justify-content: center;
    text-align: center;
 }
 
-#paragraphs p {
-   padding: 20px;
+#activityH {
+   border-top: solid black 2px;
+   color: black;
+   margin-top: 20px;
+   padding-top: 10px;
+   color: #174d73;
+}
+
+.paragraphs {
+   margin: 5px;
+   width: 200px;
    border: solid black 2px;
-   margin-bottom: 20px;
+   padding-bottom: 5px;
+}
+
+.paragraphs h3 {
+   color: black;
+   font-weight: bold;
+   font-size: 1.2em;
+}
+
+.paragraphs a {
+   color: #174d73;
 }
 
 img {

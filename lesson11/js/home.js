@@ -8,7 +8,7 @@ fetch(requestURL)
     console.table(jsonObject); // temporary checking for valid response and data parsing
     const towns = jsonObject['towns']; 
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 7; i++) {
        if (towns[i].name == "Franklin" || towns[i].name == "Greenville" || 
            towns[i].name == "Placerton" || towns[i].name == "Springfield") {
           continue

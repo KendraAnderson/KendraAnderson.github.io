@@ -1,4 +1,4 @@
-@media (min-width: 60em) {
+@media (min-width: 44.5em) {
     main, footer {
         max-width: 1600px;
         margin: 0 auto;
@@ -18,8 +18,8 @@
     }
 
     nav li a {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     h1 {
@@ -41,6 +41,10 @@
         border-top: solid black 2px;
         margin: 2px;
         padding: 10px;
+    }
+
+    #map {
+        display: block;
     }
 
     #logo {

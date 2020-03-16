@@ -1,0 +1,69 @@
+@media (min-width: 44.5em) {
+    main, footer {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    nav li a {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2.2em;
+    }
+
+    h3 {
+        font-size: .9em;
+        margin: 10px;
+    }
+
+    #map {
+        display: block;
+    }
+
+    #logo {
+        height: 150px;
+    }
+
+    div.cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.cards section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: space-evenly;
+    }
+
+    div.cards section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    img {
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgb(0, 0, 0);
+    }
+}

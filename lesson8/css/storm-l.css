@@ -42,6 +42,10 @@
         margin: 2px;
         padding: 10px;
     }
+    
+    #map {
+        display: block;
+    }
 
     #logo {
         height: 150px;
