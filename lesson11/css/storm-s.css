@@ -234,13 +234,17 @@ form label.one input:required:invalid {
    padding-top: 2px;
 }
 
- #thanks {
-   font-size: 1.5em;
+#thanks {
+   font-size: 1em;
    text-align: center;
 }
 
-.thanks {
-   font-size: 2.5em;
+#thanks p {
+   font-size: 1.8em;
+}
+
+#thanks h1 {
+   color: #174d73;
 }
 
 #comment { 
