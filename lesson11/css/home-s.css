@@ -118,7 +118,7 @@ p {
    text-align: center;
    line-height: 1.25rem;
    margin: 5px;
-   color: black;
+   color: white;
  }
  
 
@@ -133,7 +133,7 @@ main {
 
 #logo {
    height: 100px;
-   border: solid #555555 2px;
+   border: solid white 2px;
    margin-left: 20px;
    margin-top: 20px;
 }
@@ -244,6 +244,10 @@ img {
 #banner h1 {
    color: black;
    margin: 10px 0 10px 0;
+}
+
+#contact p {
+   color: black;
 }
 
  /*------cards----*/

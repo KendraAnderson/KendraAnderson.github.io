@@ -8,11 +8,16 @@ fetch(requestURL)
     console.table(jsonObject); // temporary checking for valid response and data parsing
     const towns = jsonObject['towns']; 
 
-    for (let i = 0; i < 7; i++) {
+    for (let i = 0; i < towns.length; i++) {
        if (towns[i].name == "Franklin" || towns[i].name == "Greenville" || 
            towns[i].name == "Placerton" || towns[i].name == "Springfield") {
           continue
        } 
+
+       if (towns[i] == "events"){
+         continue
+       }
+       
        let card = document.createElement('section');
        let info = document.createElement('div');
        let pic = document.createElement('div');
