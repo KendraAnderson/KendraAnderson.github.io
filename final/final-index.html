@@ -11,7 +11,7 @@
    <link rel="stylesheet" href="css/small.css">
    <link rel="stylesheet" href="css/medium.css">
    <link rel="stylesheet" href="css/large.css">
-   <link href="https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Cinzel:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -28,21 +28,85 @@
       <img src="images/logo-final.jpg" alt="logo" id="logo">
    </header>
    <div id="title">
-      <h2>Salmon River Adventures &#183; World Class River Rafting Tours</h2>
+      <h2><span>Salmon River Adventures</span> &#183; World Class River Rafting Tours</h2>
    </div>
    <div id="action">
-      <a target="_blank" href="reservation.html"><h2>Make A Reservation Now!</h2></a>
+      <a target="_blank" href="reservation.html">
+         <h2>Make A Reservation Now!</h2>
+      </a>
    </div>
    <main>
-      <div class="adventure-sections"></div>
-      <div class="weather">
-         <p>The weather goes here</p>
+      <div class="sections">
+         <div class="adventures">
+            <div>
+               <img src="images/tubes.jpg" alt="tubing">
+            </div>
+            <div class="info">
+               <h3>Tube Floating</h3>
+               <h4>&#183; Beginner &#183;</h4>
+               <p>2-3 Hours | $20 Per Person</p>
+               <p>Tube and life jacket provided.
+                  Tube pick-up at Green Bridge outlet included in price.
+                  Shuttle for customers available at additional cost.
+                  River map available in store.
+               </p>
+               <p>Enjoy a relaxing float down the river with a few 
+                  exciting stretches of small rapids.
+               </p>
+            </div>
+         </div>
+         <div class="adventures">
+            <div>
+               <img src="images/rafting.jpg" alt="rafting">
+            </div>
+            <div class="info">
+               <h3>River Rafting</h3>
+               <h4>&#183; Intermediate &#183;</h4>
+               <p>2 Hours | $40 Per Person | 4 Person Minimum</p>
+               <p>Raft, paddles and life jacket provided. Pick-up at Grey Creek outlet
+                  included in price.
+               </p>
+               <p>Get your heart beating with this rapid adventure.
+                  Each tour is guided by one of our experienced guides.
+                  (See <a target="_blank" href="guides.html">Our Guides</a> for more information)
+               </p>
+            </div>
+         </div>
       </div>
+      <div class="adventures">
+         <div>
+            <img src="images/kayak.jpg" alt="kayaking">
+         </div>
+         <div class="info">
+            <h3>Kayaking Adventure</h3>
+            <h4>&#183; Advanced &#183;</h4>
+            <p>1 Hour | $40 Per Person</p>
+            <p>Kayak, paddle, map and life jacket provided.
+               A 15 minute tutorial from our river guides is required. </p>
+            <p>This is a quick and fun adventure that requires
+               general river sport skills. Enjoy a thrilling ride
+               while dodging rocks and riding rapids.
+            </p>
+         </div>
+      </div>
+      <div id="weather">
+         <h2 id="weather-head">Riggins, Id<p id="date"></p></h2>
+         <div class="weather">
+            <div id="top"><span id="weather1"></span><img id="image1"></div>
+            <div><span id="weather2"></span> &#176; <p>Fahrenheit</p>
+            </div>
+            <div><span id="weather3"></span> % <p>Humidity</p>
+            </div>
+         </div>
+      </div>
+
    </main>
    <footer>
-      <h3>Name etc</h3>
+      <h3>Salmon River Adventures Final &#183; Kendra Anderson &#183;<a target="_blank" href="references.html">References</a></h3>
    </footer>
    <script src="js/menu.js"></script>
+   <script src="js/weather.js"></script>
+   <script src="js/date.js"></script>
 </body>
 
 </html>

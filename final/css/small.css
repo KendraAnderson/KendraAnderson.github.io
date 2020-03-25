@@ -79,6 +79,10 @@ header {
    padding: 10px;
 }
 
+#title h2 span {
+   font-size: 1.2em;
+}
+
 h1, h2, h3 {
    font-family: 'Cinzel Decorative';
 }
@@ -126,4 +130,154 @@ footer {
 body {
    background-color: #EEF3DB;
    margin: 0;
+   width: 100%;
+}
+
+.sections {
+   width: 100%;
+}
+
+.adventures {
+
+   text-align: center;
+   border: solid black 2px;
+   margin: 10px;
+   border-radius: 20px;
+}
+
+.adventures div {
+   padding: 20px;
+}
+
+.adventures p {
+   font-family: 'Cinzel';
+   font-size: 1.4em;
+}
+
+.adventures a {
+   text-decoration: none;
+   color: #FE615A;
+   font-weight: bold;
+}
+
+.adventures img {
+   max-width: 100%;
+   border-radius: 20px;
+}
+
+.info {
+   max-width: 100%;
+   justify-content: center;
+   align-self: center;
+}
+
+.info h3 {
+   font-size: 1.7em;
+   margin: 0;
+   padding: 0;
+}
+
+.info h4 {
+   font-family: 'Cinzel';
+   font-size: 1.2em;
+   margin: 0;
+}
+
+main {
+   width: 100%;
+}
+
+.weather {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 10px;
+   font-family: 'Cinzel';
+   font-weight: bold;
+}
+
+#weather {
+   border-radius: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+
+.weather {
+   border-bottom: black solid 2px;
+   border-left: black solid 2px;
+   border-right: black solid 2px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+.weather div {
+   padding: 10px;
+   margin: 5px;
+}
+
+#weather-head {
+   text-align: center;
+   margin: 0;
+   padding: 10px;
+   background-color: #FE615A;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-right: black solid 2px;
+   border-left: black solid 2px;
+   border-top: black solid 2px;
+}
+
+#weather1 {
+   margin: 0;
+   padding: 0;
+}
+
+.weather img {
+   margin: 0;
+   padding: 0;
+}
+
+#top {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   align-content: center;
+   text-align: center;
+   align-self: center;
+   justify-content: center;
+}
+
+#date {
+   font-size: .6em;
+   padding: 0;
+   margin: 0;
+}
+
+#site {
+   font-size: 1.5em;
+   text-align: center;
+   padding: 40px;
+}
+
+#site a {
+   text-decoration: none;
+
+}
+
+footer {
+   line-height: 2em;
+}
+
+footer a {
+   text-decoration: none;
+   color: #FE615A;
+   padding: 5px;
+   margin: 5px;
+}
+
+footer a:hover {
+   background-color: black;
+   border-radius: 10px;
+   box-shadow: 0 0 10px black;
 }
