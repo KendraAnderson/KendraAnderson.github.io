@@ -1,13 +1,3 @@
-const days = [
-	"Sunday",
-	"Monday",
-	"Tuesday",
-	"Wednesday",
-	"Thursday",
-	"Friday",
-	"Saturday"
-];
-
 const months = [
 	"January",
 	"February",
@@ -25,8 +15,7 @@ const months = [
 
 const today = new Date();
 
-const day = days[today.getDay()];
 const month = months[today.getMonth()];
 const year = today.getFullYear();
-const date = day + ", " + month + " " + today.getDate() +", " + year;
+const date = month + " " + today.getDate() +", " + year;
 document.getElementById("date").textContent = date;
