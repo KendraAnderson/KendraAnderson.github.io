@@ -28,8 +28,27 @@
       align-items: center;
    }
 
-   .info{
-      width: 400px;
+   div.guides {
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   .guides section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      align-content: center;
+      justify-content: space-evenly;
+      flex: 1 1 100%;
+  }
+
+  .guide-info {
+     width: 40%;
+     padding: 20px;
+  }
+
+   .info {
+      width: 40%;
    }
 
    .weather {

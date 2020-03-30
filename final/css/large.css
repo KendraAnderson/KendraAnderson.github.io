@@ -1,5 +1,36 @@
-@media (min-width: 65em) {
+@media (min-width: 75em) {
    .info {
-      width: 600px;
+      width: 80%;
+      margin: 20px;
+   }
+
+   .sections {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center; 
+      align-content: center;
+   }
+
+   .sections div {
+      display: grid; 
+      justify-items: center;
+      align-content: flex-start;
+   }
+
+   div.guides {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center; 
+      align-content: center;
+   }
+   
+   div.guides section {
+      display: grid; 
+      justify-items: center;
+      align-content: space-between; 
+   }
+
+   .guide-info {
+      width: 100%;
    }
 }
