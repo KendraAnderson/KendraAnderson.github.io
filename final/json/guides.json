@@ -2,6 +2,7 @@
    "guides": [
       {
          "name": "Brook Ford",
+         "age": "30",
          "certification": "ACA Level 4: Whitewater Rafting - Paddle",
          "experience": 10,
          "email": "theford@gmail.com",
@@ -15,6 +16,7 @@
       },
       {
          "name": "Mallory Barrett",
+         "age": "38",
          "certification": "ACA Level 5: Advanced Whitewater Kayaking, 
                            IRF GTE Guide and Trip Leader Certification",
          "experience": 20,
@@ -28,6 +30,7 @@
       },
       {
          "name": "James Barrett",
+         "age": "42",
          "certification": "ACA Level 5: Advanced Swiftwater Safety and Rescue",
          "experience": 14,
          "email": "thing2@rafting.com",
