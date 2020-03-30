@@ -1,0 +1,45 @@
+{
+   "guides": [
+      {
+         "name": "Brook Ford",
+         "certification": "ACA Level 4: Whitewater Rafting - Paddle",
+         "experience": 10,
+         "email": "theford@gmail.com",
+         "biography": "I have been a rafting guide for 10 years. In my 
+                       spare time I rock climb, kayak and camp. I have only
+                       been de-rafted once in my career and I blame that on
+                       the bear that distracted me from shore. On my rafting 
+                       adventures you'll learn all about local nature. My highest
+                       rapid level is class III.",
+         "photo": "images/brook.jpg"
+      },
+      {
+         "name": "Mallory Barrett",
+         "certification": "ACA Level 5: Advanced Whitewater Kayaking, 
+                           IRF GTE Guide and Trip Leader Certification",
+         "experience": 20,
+         "email": "thing1@rafting.com",
+         "biography": "I joined Salmon River 18 years ago
+                       and never left. I love the thrill of rafting
+                       and educating people about the river. I couldn't
+                       live without the outdoors. I have guided over 
+                       100 rafting trips. Highest rapid level: VI.",
+         "photo": "images/mallory.jpg"
+      },
+      {
+         "name": "James Barrett",
+         "certification": "ACA Level 5: Advanced Swiftwater Safety and Rescue",
+         "experience": 14,
+         "email": "thing2@rafting.com",
+         "biography": "After tagging along on a rafting trip that my
+                       wife Mallory was guiding, I fell in love with
+                       the river. I ended my career as an olypic swimmer
+                       and joined Mallory as a rafting guide for Salmon River
+                       Adventures. It's the best job I've ever has. I enjoy
+                       all types of water sports. I have rafted
+                       class V rapids.",
+         "photo": "images/james.jpg"
+      }
+      
+   ]
+}
