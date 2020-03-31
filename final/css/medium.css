@@ -63,4 +63,14 @@
       align-self: center;
       justify-content: center;
    }
+
+   #tables {
+      display: flex;
+      flex-direction: row;
+      
+   }
+
+   table {
+      margin: 20px;
+   }
 }

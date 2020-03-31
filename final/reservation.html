@@ -11,7 +11,8 @@
    <link rel="stylesheet" href="css/small.css">
    <link rel="stylesheet" href="css/medium.css">
    <link rel="stylesheet" href="css/large.css">
-   <link href="https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -31,64 +32,122 @@
       <h2><span>Salmon River Adventures</span> &#183; World Class River Rafting Tours</h2>
    </div>
    <main>
-      <div id="table">
-            <table>
-                  <thead><tr><td colspan="4">Salmon River Adventures</td></tr></thead>
-                  <tbody>
-                     <tr>
-                        <th class="beginning">Adventure</th><th>Tubing</th><th>Rafting</th><th>Kayaking</th>
-                     </tr>
-                     <tr>
-                        <th class="beginning">Level</th>
-                        <td>Beginner</td>
-                        <td>Intermediate</td>
-                        <td>Advanced</td>
-                     </tr>
-                     <tr>
-                        <th class="beginning">Duration</th>
-                        <td>2-3 Hours</td>
-                        <td>2 hours</td>
-                        <td>24 Hours</td>
-                     </tr>
-                     <tr>
-                        <th class="beginning">Cost</th>
-                        <td>$20/Person</td>
-                        <td>$40/Person</td>
-                        <td>$220/Person</td>
-                     </tr>
-                     <tr class="tall">
-                        <th rowspan="6" class="beginning">Equipment<br> Provided</th>
-                        <td>Tube<br>Life Jacket</td>
-                        <td>Raft<br>Paddle<br>Life Jacket<br>Guide</td>
-                        <td>Kayak<br>Paddle<br>Life Jacket<br>Guide<br>Lodging<br>3 Meals</td>
-                     </tr>
-                  </tbody>
-                  <tfoot><tr><td colspan="4">Last Update 3&#183;30&#183;2020</td></tr></tfoot>
-               </table>
+      <div id="tables">
+         <table>
+            <thead>
+               <tr>
+                  <td colspan="2">Tubing</td>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <th class="beginning">Level</th>
+                  <td>Beginner</td>
+               </tr>
+               <tr>
+                  <th class="beginning">Duration</th>
+                  <td>2-3 Hours</td>
+               </tr>
+               <tr>
+                  <th class="beginning">Cost</th>
+                  <td>$20/Person</td>
+               </tr>
+               <tr class="tall">
+                  <th class="beginning">Equipment<br> Provided</th>
+                  <td>Tube<br>Life Jacket</td>
+               </tr>
+            </tbody>
+            <tfoot>
+               <tr>
+                  <td colspan="2">Last Update 3&#183;30&#183;2020</td>
+               </tr>
+            </tfoot>
+         </table>
+         <table>
+            <thead>
+               <tr>
+                  <td colspan="2">Rafting</td>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <th class="beginning">Level</th>
+                  <td>Intermediate</td>
+               </tr>
+               <tr>
+                  <th class="beginning">Duration</th>
+                  <td>2 Hours</td>
+               </tr>
+               <tr>
+                  <th class="beginning">Cost</th>
+                  <td>$40/Person - Min 4 Persons</td>
+               </tr>
+               <tr class="tall">
+                  <th class="beginning">Equipment<br> Provided</th>
+                  <td>Raft<br>Paddle<br>Life Jacket<br>Guide</td>
+               </tr>
+            </tbody>
+            <tfoot>
+               <tr>
+                  <td colspan="2">Last Update 3&#183;30&#183;2020</td>
+               </tr>
+            </tfoot>
+         </table>
+         <table>
+            <thead>
+               <tr>
+                  <td colspan="2">Kayaking</td>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <th class="beginning">Level</th>
+                  <td>Advanced</td>
+               </tr>
+               <tr>
+                  <th class="beginning">Duration</th>
+                  <td>24 Hours</td>
+               </tr>
+               <tr>
+                  <th class="beginning">Cost</th>
+                  <td>$220/Person</td>
+               </tr>
+               <tr class="tall">
+                  <th class="beginning">Equipment<br> Provided</th>
+                  <td>Kayak<br>Paddle<br>Life Jacket<br>Guide<br>Lodging<br>3 Meals</td>
+               </tr>
+            </tbody>
+            <tfoot>
+               <tr>
+                  <td colspan="2">Last Update 3&#183;30&#183;2020</td>
+               </tr>
+            </tfoot>
+         </table>
       </div>
       <div id="form">
-            <form>
-               <fieldset>
-                  <legend>&#183; Make a Reservation &#183;</legend>
-                  <label class="box">Full Name* <input type="text" name="name" pattern="[A-Za-z]{1, }" required></label>
-                  <label class="box">Email* <input type="email" name="email" placeholder="name@gmail.com" required></label>
-                  <label class="box">Phone Number* <input type="tel" name="phone" placeholder="1(888)222-3333" required></label>
-                  <label class="box">Adventure Type*
-                        <select name="adventure" required>
-                           <option value="" disabled="disabled" selected>Select Adventure &#9662;</option>
-                           <option value="tubing">Tube Floating</option>
-                           <option value="rafting">River Rafting</option>
-                           <option value="kayaking">Kayaking Adventure</option>
-                        </select>
-                  </label>
-                  <label class="box">Reservation Date* <input type="date" name="date" required></label>
-                  <label class="box">Questions or Comments <br>
-                     <textarea name="comment" rows="10" cols="25" placeholder="250 characters" id="comment"></textarea>
-                  </label>
-                  <input type="submit" value="Send Request" class="button">
-               </fieldset>        
-            </form>
-         </div>
+         <form>
+            <fieldset>
+               <legend>&#183; Make a Reservation &#183;</legend>
+               <label class="box">Full Name* <input type="text" name="name" pattern="[A-Za-z]{1, }" required></label>
+               <label class="box">Email* <input type="email" name="email" placeholder="name@gmail.com" required></label>
+               <label class="box">Phone Number* <input type="tel" name="phone" placeholder="1(888)222-3333"
+                     required></label>
+               <label class="box">Adventure Type*
+                  <select name="adventure" required>
+                     <option value="" disabled="disabled" selected>Select Adventure &#9662;</option>
+                     <option value="tubing">Tube Floating</option>
+                     <option value="rafting">River Rafting</option>
+                     <option value="kayaking">Kayaking Adventure</option>
+                  </select>
+               </label>
+               <label class="box">Reservation Date* <input type="date" name="date" required></label>
+               <label class="box">Questions or Comments <br>
+                  <textarea name="comment" rows="10" cols="25" placeholder="250 characters" id="comment"></textarea>
+               </label>
+               <input type="submit" value="Send Request" class="button">
+            </fieldset>
+         </form>
+      </div>
    </main>
    <footer>
       <h3>Salmon River Adventures Final &#183; Kendra Anderson &#183;
@@ -97,8 +156,6 @@
       </h3>
    </footer>
    <script src="js/menu.js"></script>
-   <script src="js/weather.js"></script>
-   <script src="js/date.js"></script>
 </body>
 
 </html>

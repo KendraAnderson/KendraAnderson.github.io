@@ -232,7 +232,7 @@ main {
 #weather-head {
    text-align: center;
    margin: 0;
-   padding: 10px;
+   padding-top: 10px;
    background-color: #FE615A;
    border-top-left-radius: 20px;
    border-top-right-radius: 20px;
@@ -263,9 +263,13 @@ main {
 }
 
 #date {
-   font-size: .6em;
-   padding: 0;
+   background-color: #FE615A;
+   border-left: solid black 2px;
+   border-right: solid black 2px;
    margin: 0;
+   text-align: center;
+   padding-bottom: 10px;
+   font-weight: bold;
 }
 
 .site {
@@ -344,7 +348,9 @@ label.box input, label.box textarea, label.box select {
    margin-top: 5px;
    display: block;
    border-radius: 5px;
-   font-size: 1.3em;
+   line-height: 40px;
+   width: 200px;
+  
 }
 
 form legend {
@@ -359,6 +365,9 @@ iframe {
    box-shadow: 0 0 10px black;
    margin-top: 0;
    padding-top: 0;
+   width: 200px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 #map {
@@ -399,23 +408,27 @@ iframe {
    margin-bottom: 0;
    padding-bottom: 0;
    margin-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
-#table {
+#tables {
    justify-content: center;
    justify-items: center;
    justify-self: center;
    align-items: center;
-   margin:20px;
    color: white;
+   max-width: 100%;
+   margin: 10px;
 }
 
 table {
    background-color: black;
-   padding: 10px;
+   margin: 20px;
+   border-radius: 20px;
    margin-left: auto;
    margin-right: auto;
-   border-radius: 20px;
+   table-layout: auto;
 }
 
 table, td, th {
@@ -433,7 +446,6 @@ tfoot {
 
 thead {
    font-family: 'Cinzel Decorative';
-   font-size: 1.5em;
    font-weight: bold;
    text-align: center;
    color: #FE615A;
@@ -444,7 +456,7 @@ tbody {
 }
 
 td, th, thead td{
-   padding: 10px;
+   padding: 5px;
 }
 
 .tall {
