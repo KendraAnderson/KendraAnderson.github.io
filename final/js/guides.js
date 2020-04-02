@@ -13,10 +13,10 @@ fetch(requestURL)
      let info = document.createElement('div');
      let pic = document.createElement('div');
      let name = document.createElement('h2');
-     let age = document.createElement('p');
-     let cert = document.createElement('p');
-     let xp = document.createElement('p');
-     let email = document.createElement('p');
+     let age = document.createElement('h4');
+     let cert = document.createElement('h4');
+     let xp = document.createElement('h4');
+     let email = document.createElement('h4');
      let bio = document.createElement('p');
      let image = document.createElement('img');
 
