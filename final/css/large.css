@@ -33,4 +33,8 @@
    .guide-info {
       width: 100%;
    }
+
+   label.box input, label.box textarea, label.box select {
+      width: 600px;
+   }
 }

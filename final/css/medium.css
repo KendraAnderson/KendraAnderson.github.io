@@ -73,4 +73,9 @@
    table {
       margin: 20px;
    }
+
+   
+   label.box input, label.box textarea, label.box select {
+      width: 400px;
+   }
 }
