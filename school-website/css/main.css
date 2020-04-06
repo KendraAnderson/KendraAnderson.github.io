@@ -1,0 +1,40 @@
+body {
+   background-color: rgb(248, 247, 169);
+}
+
+#day {
+   font-size: 4em;
+   text-align: center;
+   margin: 20px;
+   padding: 10px;
+   color: rgb(5, 187, 96);
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+main {
+   text-align: center;
+   margin: 20px;
+   padding: 0;
+}
+
+iframe {
+   width: 220px;
+   height: 220px;
+   margin: 0;
+   padding: 0;
+}
+
+#digital {
+   height: 100px;
+}
+
+#activity {
+   font-size: 4em;
+   text-align: center;
+   margin: 80px;
+   font-family: 'Spicy Rice';
+   color: rgb(188, 13, 211);
+   border: dotted 4px rgb(188, 13, 211);
+   padding: 20px;
+}
