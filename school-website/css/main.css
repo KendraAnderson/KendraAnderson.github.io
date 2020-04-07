@@ -1,11 +1,12 @@
 body {
    background-color: rgb(248, 247, 169);
+   margin: 0;
+   background-color: black;
 }
 
 #day {
    font-size: 4em;
    text-align: center;
-   margin: 20px;
    padding: 10px;
    color: rgb(5, 187, 96);
    font-weight: bold;
@@ -16,6 +17,7 @@ main {
    text-align: center;
    margin: 20px;
    padding: 0;
+   margin: 0;
 }
 
 iframe {
@@ -30,11 +32,26 @@ iframe {
 }
 
 #activity {
-   font-size: 4em;
+   font-size: 3em;
    text-align: center;
-   margin: 80px;
+   margin: 20px;
    font-family: 'Spicy Rice';
-   color: rgb(188, 13, 211);
-   border: dotted 4px rgb(188, 13, 211);
+   color: rgb(253, 136, 2);
+   text-shadow: 2px 2px white; 
+   box-shadow: 0 0 10px white;
+   border: dotted 4px rgb(0, 243, 243);
    padding: 20px;
+}
+
+#upcoming {
+  font-size: 2em;
+  text-align: center;
+  margin: 20px;
+  font-family: 'Spicy Rice';
+  color: rgb(187, 0, 0);
+  padding: 20px;
+}
+
+audio {
+   display: none;
 }
